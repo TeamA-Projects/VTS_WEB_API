@@ -21,6 +21,10 @@ namespace VTS.WebApi.Controllers
             catRepo = Repo;
         }
 
+        /// <summary>
+        /// Get All Categories from this method
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IEnumerable<Category>> Get()
         {
