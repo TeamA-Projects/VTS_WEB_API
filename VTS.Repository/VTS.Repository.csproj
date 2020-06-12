@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VTS.DataAccess\VTS.DataAccess.csproj" />
+    <ProjectReference Include="..\VTS.IRepository\VTS.IRepository.csproj" />
+    <ProjectReference Include="..\VTS.Models\VTS.Models.csproj" />
+  </ItemGroup>
+
+</Project>
